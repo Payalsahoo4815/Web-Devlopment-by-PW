@@ -1,0 +1,14 @@
+/* body{
+    background-color:  lightblue;
+} */
+
+
+
+/* class ke liye . use hoti hai */
+.heading{
+    color: red;
+    font-size: 43px;
+    text-align: center;
+    text-decoration: underline;
+    border : 5px dotted blueviolet ;
+}

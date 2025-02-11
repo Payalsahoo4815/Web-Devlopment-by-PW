@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module-20 || Pseudo class</title>
+    <style>
+        /* pseudo class */
+        /* Hover */
+        p:hover{
+            background-color: black;
+            color: white;
+        }
+        input:focus{
+            color: blue;
+            background-color: pink;
+        }
+        a:hover{
+            color: rgb(236, 22, 222);
+        }
+        a:active{
+            color: aqua;
+        }
+        /* a:visited{
+            color: rgb(247, 76, 9);
+        } */
+        a:first-child{
+            background-color: black;
+            color: white;
+        }
+
+        /* Pseudo element */
+        p::first-line{
+            color: blueviolet;
+        }
+        p::after{
+            content: "-Payal";
+            color: rgb(17, 241, 166);
+        }
+        p::before{
+            content: "-Payal";
+            color: rgb(236, 113, 12);
+        }
+        p::selection{
+            background-color: rgb(214, 248, 145);
+            color: rgb(13, 132, 235);
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- Pseudo class -->
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, vitae.</p>
+    <input type="text">
+    <br>
+    <nav>
+        <a href="https://www.google.com/" target="_blank">Google</a>
+        <a href="https://www.google.com/" target="_blank">Google</a>
+
+
+        <!-- Pseudo element -->
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit magni cupiditate iure hic accusantium nulla corporis porro dolor asperiores inventore iusto doloremque officiis ad commodi, odio, ipsa perspiciatis soluta vero.</p>
+    </nav>
+    
+</body>
+</html>

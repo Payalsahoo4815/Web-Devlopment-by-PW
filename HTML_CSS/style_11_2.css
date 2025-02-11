@@ -1,0 +1,52 @@
+div{
+    text-align: center;
+    font-size: x-large;
+}
+@media(max-width : 600px){
+    /* Phones */
+    body{
+        background-color: rgb(170, 96, 243);
+    }
+    div::after{
+        content: 'This is mobile Compatible'
+    }   
+}
+@media (min-width : 600px) {
+    /* portrait tablets and big phones */
+    body{
+        background-color: rgb(87, 151, 246);
+    }
+    div::after{
+        content: 'This is portrait tablet Compatible and big phone'
+    }  
+}
+@media (min-width :768px) {
+    /* Tablets  */
+    body{
+        background-color: rgb(88, 192, 244);
+    }
+    div::after{
+       content: 'This is for tablet Compatible'
+    }   
+}
+@media (min-width : 992px) {
+    /* laptops */
+    body{
+        background-color: rgb(203, 255, 72);
+    }
+    div::after{
+        content: 'This is laptops Compatible'
+    }
+    
+}
+@media (min-width : 1200px) {
+    /* large screen */
+    body{
+        background-color: rgb(237, 164, 79);
+    }
+    div::after{
+        content: 'This is large screen Compatible'
+    } 
+}
+
+

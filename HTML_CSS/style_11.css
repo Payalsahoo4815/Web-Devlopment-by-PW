@@ -1,0 +1,49 @@
+body{
+    background-color: aqua;
+}
+div{
+    font-size: x-large;
+    text-align: center;
+}
+
+div::after{
+    content: 'Welcome to the Demo'
+}
+@media (max-width : 400px) {
+    /* if view port atleast 900px then this style will apply */
+    body{
+        background-color: rgb(33, 245, 43);
+    }
+    div::after{
+        content: 'Smallest size'
+    }
+}
+@media (min-width : 400px) and (max-width : 700px) {
+    /* if view port atleast 900px then this style will apply */
+    body{
+        background-color: rgb(220, 217, 15);
+    }
+    div::after{
+        content: 'very Smaller size'
+    }
+}
+@media (min-width : 700px) {
+    /* if view port atleast 900px then this style will apply */
+    body{
+        background-color: rgb(59, 155, 252);
+    }
+    div::after{
+        content: 'Medium size'
+    }
+}
+
+@media (min-width : 900px) {
+    /* if view port atleast 900px then this style will apply */
+    body{
+        background-color: yellowgreen;
+    }
+    div::after{
+        content: 'Oh! it is working'
+    }
+}
+

@@ -1,0 +1,21 @@
+ctrl+/ it make the line comment 
+for Greater than symbol &gt
+for lesser than symbol &l
+For shortcut class making p.classname +enter
+ For shortcut id making p#idname +enter  
+ for bold <b> or <strong>
+for italic <i> or <em>
+for underline <u>
+for cut <strike> or <s>  or <del>
+for subscript <sub>
+for superscript <sup>
+for text small <small>
+for text big <big>
+for highlighting text <mark>
+for represents an abbreviation  <abbr>
+for definition <dfn>
+for inserted text <ins>
+For using universal selector use *{ }
+for using element selector use h1{}
+For usinng class selector use .classname{}
+For usinng id selector use #idname{}

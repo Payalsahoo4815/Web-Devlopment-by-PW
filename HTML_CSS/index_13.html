@@ -3,9 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Module-23 || Flexbox </title>
+    <title>Module-23 || Flexbox Property</title>
+    <style>
+        .cont{
+            display : flex;
+            border: 2px solid black;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-flow: start nowrap;
+            /* align-content: center; */
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+        }
+        .box1{
+            background-color: rgb(185, 128, 241);
+            /* color: rgb(241, 243, 244); */
+            text-align: center;
+        }
+        .box2{
+            background-color: rgb(234, 206, 46);
+            /* flex-grow: 2 ; */
+            flex-shrink: 2;
+        } 
+        .box3{
+            background-color: rgb(22, 193, 223);
+        }
+    </style>
 </head>
 <body>
-    
+    <!-- Flexbox Property -->
+    <div class="cont">
+        <div class="box box1">Box1</div>
+        <div class="box box2">Box2</div>
+        <div class="box box3">Box3</div>
+    </div>
 </body>
 </html>

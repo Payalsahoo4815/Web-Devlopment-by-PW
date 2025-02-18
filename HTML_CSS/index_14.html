@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module-24 ||Grid and Flex</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 200px 100px 100px;
+        }
+        .box{
+            /* height: 100px;
+            width: 100px; */
+            margin: 10px;
+        }
+        .box1{
+            background-color: rebeccapurple;
+        }
+        .box2{
+            background-color: teal;
+        }
+        .box3{
+            background-color: plum;
+        }
+    </style>
+</head>
+<body>
+    <!-- Grid -->
+    <div class="container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+    </div>
+</body>
+</html>
